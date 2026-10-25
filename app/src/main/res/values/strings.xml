@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Çalışma Saati Takibi</string>
+    <!-- Web Client ID: Firebase Console -> Authentication -> Sign-in method -> Google -->
+    <string name="default_web_client_id">398766227817-kedeom40nohgb0tk4vdac3d8t539eh8i.apps.googleusercontent.com</string>
+</resources>

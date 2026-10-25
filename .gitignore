@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/*/build/
+!*/src/main/**/build.gradle.kts
+
+# Local configuration
+local.properties
+
+# Keystore / Signing
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase
+google-services.json
+**/google-services.json
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+
+# Test outputs
+/test-results/
+/coverage/
+
+# Kotlin
+*.klib
+*.kotlin_module
+
+# Room
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.temp
